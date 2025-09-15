@@ -1,5 +1,6 @@
 body {
     background-color: rgb(144, 185, 255);
+ul {list-style-type: none;}
 }
 
 h1 {

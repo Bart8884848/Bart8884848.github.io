@@ -32,3 +32,11 @@ h1 {
     color: rgb(123, 87, 215);
     margin-left: 20px;
 }
+
+p {
+   color: rgb(123, 87, 215);
+}
+
+.test {
+    background-image: url(binairbackground.jpg);
+}

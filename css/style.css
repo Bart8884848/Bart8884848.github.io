@@ -1,5 +1,5 @@
 body {
-  background-image: url(wallpaper.jpg);
+  background-image: url(/images/wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;}
   ul {
@@ -38,15 +38,15 @@ p {
 }
 
 .test {
-    background-image: url(binairbackground.jpg);
+    background-image: url(/images/binairbackground.jpg);
 }
 .test2 {
-    background-image: url(rgb.jpg);
+    background-image: url(/images/rgb.jpg);
 }
 
 .test3 {
-  background-image: url(ivuv.jpg);
+  background-image: url(/images/ivuv.jpg);
 }
 .test4 {
-  background-image: url(compression.png);
+  background-image: url(/images/compression.png);
 }

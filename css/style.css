@@ -39,7 +39,10 @@ p {
 
 .test {
     background-image: url(/images/binairbackground.jpg);
+p {
+   color: rgb(255, 255, 255);
 }
+  }
 .test2 {
     background-image: url(/images/rgb.jpg);
 }

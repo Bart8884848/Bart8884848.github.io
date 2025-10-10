@@ -8,6 +8,7 @@ ul { /*zo doe je commentaar*/
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  position: sticky;
 }
 
 ul li {

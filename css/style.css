@@ -62,3 +62,7 @@ div {
 .test4 {
   background-image: url(/images/compression.png);
 }
+
+img .img {
+  position: center;
+}

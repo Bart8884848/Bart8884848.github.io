@@ -2,7 +2,7 @@ body {
   background-image: url(/images/wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;}
-ul {
+ul { /*zo doe je commentaar*/
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -64,5 +64,5 @@ div {
 }
 
 img .imgage {
-  position: center;
+  position: absolute;
 }

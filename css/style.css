@@ -50,6 +50,7 @@ div {
   border-style: solid;
   background-color: #111111;
   border-radius: 12px;
+  padding: 5px;
 }
 .test2 {
   background-image: url(/images/rgb.jpg);

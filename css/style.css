@@ -36,36 +36,43 @@ ul li a:hover {
 }
 /* Opmaak voor alle <h1>-koppen (hoofdtitels) op de pagina */
 h1 {
-  color: rgb(123, 87, 215);
-  margin-left: 20px;
+  color: rgb(123, 87, 215); /* Geeft de tekst een paarse kleur */
+  margin-left: 20px;   /* Zorgt voor 20px ruimte tussen de linkerkant van de pagina en de titel */
 }
 
-p {
+p { /* Opmaak voor alle <p>-elementen (paragrafen) op de pagina */
   color: rgb(255, 255, 255);
 }
+/* Zet de tekstkleur van paragrafen op wit */
+.test { /*Dit is voor een clas dat alleen een bepaalde pagina met dat woord temaken heeft (class=.test)*/
 
-.test {
-  background-image: url(/images/binairbackground.jpg);}
+  background-image: url(/images/binairbackground.jpg);} /*andere achtergrond*/
 h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255); /*tekstkleur*/
   margin-left: 20px;
-  text-shadow: 2px 2px rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(0, 0, 0); /*donkere tekst schawduw*/
 }
 
-div {
-  color: rgb(255, 255, 255);
-  border-style: solid;
-  background-color: #111111;
-  border-radius: 12px;
-  padding: 5px;
+div { /*border voor tekst*/
+  color: rgb(255, 255, 255); /*kleur*/
+  border-style: solid; /*type rand*/
+  background-color: #111111; /*kleur*/
+  border-radius: 12px; /*afstand tekst*/
+  padding: 5px; /*afstand tekst*/
 }
-.test2 {
-  background-image: url(/images/rgb.jpg);
+.test2 { /*andere class*/
+  background-image: url(/images/rgb.jpg); /*andere achtergrond*/
 }
 
-.test3 {
-  background-image: url(/images/ivuv.jpg);
+.test3 { /*andere class*/
+  background-image: url(/images/ivuv.jpg); /*andere achtergrond*/
 }
-.test4 {
-  background-image: url(/images/compression.png);
+.test4 { /*andere class*/
+  background-image: url(/images/compression.png); /*andere achtergrond*/
 }
+
+
+
+
+
+/*geen afsluiting body nodig*/

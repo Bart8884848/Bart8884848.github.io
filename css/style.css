@@ -1,37 +1,40 @@
-body {
-  background-image: url(/images/wallpaper.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;}
-ul { /*zo doe je commentaar*/
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  position: sticky;
+body { /*Start css body (geen head)*/
+  background-image: url(/images/wallpaper.jpg); /* achtergrond */
+  background-repeat: no-repeat; /*de achtergrond herhaald zichzelf niet als er nog ruimte over is*/
+  background-size: cover;} /*voledige pagina heeft de achtergrond (altijd juiste groote)*/
+ul { /*Dit is de balk boven in de website per pagina waar je op kan kliken om op een andere pagina te zitten.*/
+  list-style-type: none; /*detail om de balk te maken*/
+  margin: 0; /*detail voor balk*/
+  padding: 0; /*detail voor balk*/
+  overflow: hidden; /*detail*/
+  background-color: #333333; /*kleur achtergrond*/
+  position: sticky; /*positie balk*/
 }
-a:link {
-  color: white;
+a:link { /*link*/
+  color: white; /*tekstkleur*/
 }
 
-ul li {
+ul li { /* Elk <li>-element in de lijst (<ul>) wordt naast elkaar geplaatst in plaats van onder elkaar */
   float: left;
 }
 
+/* De <a>-elementen (links) binnen de lijstitems krijgen een blokweergave,
+   zodat de hele knop klikbaar wordt, niet alleen de tekst */
+
 ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block; 
+  color: white;   /* De tekstkleur van de links wordt wit */
+  text-align: center;   /* De tekst in de link wordt horizontaal in het midden uitgelijnd */
+  padding: 14px 16px;   /* Ruimte binnen de link: 14px boven/onder, 16px links/rechts */
+  text-decoration: none;    /* Verwijdert de standaard onderstreping van links */
 }
-
+/* Wanneer je met de muis over een link in de lijst gaat (<a> in <li>) */
 ul li a:hover {
-  background-color: #111111;
-  border: 2px solid rgb(255, 238, 238);
-  border-radius: 5px;
+  background-color: #111111; /* De achtergrondkleur verandert naar een donkergrijze tint */
+  border: 2px solid rgb(255, 238, 238);   /* Er verschijnt een lichte rand van 2 pixels rond de link */
+  border-radius: 5px; /* De hoeken van de link worden afgerond (zachte randen) */
 }
-
+/* Opmaak voor alle <h1>-koppen (hoofdtitels) op de pagina */
 h1 {
   color: rgb(123, 87, 215);
   margin-left: 20px;

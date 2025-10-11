@@ -10,6 +10,9 @@ ul { /*zo doe je commentaar*/
   background-color: #333333;
   position: sticky;
 }
+a:link {
+  color: white;
+}
 
 ul li {
   float: left;
